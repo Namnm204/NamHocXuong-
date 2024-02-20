@@ -3,7 +3,6 @@ import register from "./src/components/Register";
 import signIn from "./src/components/SignIn";
 import SignInPage from "./src/pages/SignInPage";
 import SignUpPage from "./src/pages/SignUpPage";
-import AboutPage from "./src/pages/AboutPage";
 import HomePage from "./src/pages/HomePage";
 import NotFoundPage from "./src/pages/NotFoundPage";
 import { render, router } from "./src/utils/common";
@@ -19,7 +18,6 @@ router.on("/", () => render(app, HomePage), {
     ProductList();
   },
 });
-router.on("/about", () => render(app, AboutPage));
 router.on("/home", () => router.navigate("/"));
 router.on("/signup", () => render(app, SignUpPage), {
   after: () => {
@@ -41,3 +39,6 @@ router.on("/Detail/:id", () => render(app, DetailPage), {
 });
 router.notFound(() => render(app, NotFoundPage));
 router.resolve();
+
+
+

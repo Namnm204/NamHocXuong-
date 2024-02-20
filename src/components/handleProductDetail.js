@@ -8,17 +8,18 @@ const handleProductDetail = (data) => {
       .get(`/products/${id}`)
       .then(({ data }) => {
         productDetail.innerHTML = `
-          <div class="">
+          <div class="box">
             <div class="anh_chitiet">
               <img src="${data.thumbnail}" alt="${data.title}" />
             </div>
             <div class="danhsach">
               <div class="danhsach_infor">
                 <h1>${data.title}</h1>
-                <div>Giá: ${data.price}</div>
-                <p>Sẵn hàng: ${data.stock}</p>
-                <p>Đánh giá: ${data.rating}</p>
-                <p>Mô tả: ${data.description}</p>
+                <div class="giaspct">Giá: ${data.price}</div>
+                <p class="shspct">Sẵn hàng: ${data.stock}</p>
+                <p class="dgspct">Đánh giá: ${data.rating}</p>
+                <p class="motaspct">Mô tả: ${data.description}</p>
+                <button>ĐẶT HÀNG NGAY</button>
               </div>
             </div>
           </div>
