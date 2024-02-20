@@ -11,9 +11,9 @@ const ProductList = async () => {
               <div class="box_sp">
                 <div class="anhsp" ><img class="anhsp" src="${product.thumbnail}" alt="" /></div>
                 <div class="tieudesp">${product.title}</div>
-                <div class="giasp">GIá: ${product.price}</div>
+                <div class="giasp">Giá: ${product.price}</div>
                 <div class="motasp">Mô Tả: ${product.description}</div>
-                <div class="xemchitiet"><a href="/chitietsp/${product.id}">Xem Chi Tiết</a></div>
+                <div class="xemchitiet"><a href="/Detail/${product.id}">Xem Chi Tiết</a></div>
               </div>
             `;
             })

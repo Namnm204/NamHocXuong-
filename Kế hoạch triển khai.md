@@ -2,12 +2,12 @@
 
 ## Bắt buộc cần có:
 
-- [ ] Khởi tạo dự án. x
-- [ ] Cài đặt thư viện x
-- [ ] Tạo trang danh sách sản phẩm x
-- [ ] Tạo trang chi tiết sản phẩm 
-- [ ] Tạo trang đăng ký x
-- [ ] Tạo trang đăng đăng nhập x
+- [X] Khởi tạo dự án.
+- [X] Cài đặt thư viện
+- [X] Tạo trang danh sách sản phẩm
+- [X] Tạo trang chi tiết sản phẩm 
+- [X] Tạo trang đăng ký
+- [X] Tạo trang đăng đăng nhập
 - [ ] Tạo chức năng Thêm sản phẩm vào giỏ hàng
 
 ## Tính năng nâng cao (tuỳ chọn):

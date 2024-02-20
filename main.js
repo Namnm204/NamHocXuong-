@@ -6,8 +6,10 @@ import SignUpPage from "./src/pages/SignUpPage";
 import AboutPage from "./src/pages/AboutPage";
 import HomePage from "./src/pages/HomePage";
 import NotFoundPage from "./src/pages/NotFoundPage";
-// import chitietsp from "./src/pages/chitietsp";
 import { render, router } from "./src/utils/common";
+import DetailPage from "./src/pages/DetailPage";
+import handleProductDetail from "./src/components/handleProductDetail";
+
 import "./style.css";
 
 const app = document.getElementById("app");
@@ -32,6 +34,10 @@ router.on("/signin", () => render(app, SignInPage), {
     btnSignIn.onclick = signIn;
   },
 });
-router.on("/chitietsp/:id", () => render(app, chitietsp));
+router.on("/Detail/:id", () => render(app, DetailPage), {
+  after({ data }) {
+    handleProductDetail(data);
+  },
+});
 router.notFound(() => render(app, NotFoundPage));
 router.resolve();
