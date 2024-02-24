@@ -6,7 +6,7 @@ const SignUpPage = () => {
     <label for="email" class="form-label">Your email</label>
     <input
       type="email"
-      class="form-control"
+      class="form-control dai"
       id="email"
       placeholder="Your email..."
     />

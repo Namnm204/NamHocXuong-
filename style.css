@@ -13,7 +13,7 @@ header {
   top: 0;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
-.banner img{
+.banner img {
   height: 500px;
   margin-top: 100px;
   border-radius: 20px;
@@ -23,9 +23,8 @@ header {
   height: 100%;
   justify-content: flex-start;
   align-items: center;
-  
 }
-#productDetail{
+#productDetail {
   margin-top: 100px;
 }
 .nav-item {
@@ -64,11 +63,11 @@ form {
 .btn-submit {
   width: 100%;
 }
-#productList{
+#productList {
   display: flex;
   flex-wrap: wrap;
 }
-.box_sp{
+.box_sp {
   border: 1px solid;
   border-radius: 10px;
   width: 24%;
@@ -78,66 +77,65 @@ form {
   overflow: auto;
   position: relative;
 }
-@media screen and (max-width: 800px){
-  .box_sp{
+@media screen and (max-width: 800px) {
+  .box_sp {
     width: 30%;
     height: 250px;
     position: relative;
   }
-  .box_sp img{
+  .box_sp img {
     width: 100%;
     height: 100px;
   }
-  .box_sp .motasp{
+  .box_sp .motasp {
     font-size: 30%;
     height: 30px;
     overflow: hidden;
   }
-  .box_sp .tieudesp{
+  .box_sp .tieudesp {
     font-size: 45%;
   }
-  .box_sp .giasp{
+  .box_sp .giasp {
     font-size: 70%;
   }
-  .box_sp .xemchitiet{
+  .box_sp .xemchitiet {
     font-size: 35%;
     position: absolute;
     margin-left: -10px;
     margin-top: 10px;
   }
-
 }
-img{
+img {
   height: 250px;
   width: 100%;
 }
-.motasp{
+.motasp {
   display: none;
 }
 ::-webkit-scrollbar {
   display: none;
 }
-.tieudesp{
+.tieudesp {
   font-size: 30px;
 }
-.giasp{
+.giasp {
   font-size: 23px;
   padding: 5px 0;
   color: red;
 }
-.xemchitiet{
+.xemchitiet {
   position: absolute;
   bottom: 10px;
   font-size: 15px;
   left: 35%;
 }
-.xemchitiet:hover{
+.xemchitiet:hover {
   color: blue;
   text-decoration: underline;
   cursor: pointer;
 }
 /* =========================chitietsp */
-    body {
+body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -146,7 +144,7 @@ img{
 h1 {
   margin: 0;
 }
-.tieudenew{
+.tieudenew {
   margin-top: 100px;
 }
 
@@ -176,7 +174,7 @@ button {
   cursor: pointer;
   border-radius: 10px;
 }
-button:active{
+button:active {
   background-color: blue;
 }
 
@@ -186,170 +184,183 @@ footer {
   padding: 20px;
   text-align: center;
 }
-#header .nav .logo img{
+#header .nav .logo img {
   width: 100px;
   height: 50px;
   margin-left: 100px;
 }
-.anh_chitiet img{
+.anh_chitiet img {
   height: 550px;
   padding: 20px 0;
   width: 1400px;
 }
-.danhsach .danhsach_infor{
+.danhsach .danhsach_infor {
   margin-left: 50px;
 }
-.box{
+.box {
   display: flex;
 }
-.giaspct{
+.giaspct {
   font-size: 25px;
   color: red;
 }
 /* =======================================================footer */
-footer{
-    background-color: #353535;
-    width: 100%;
-    height: 400px;
-    position: relative;
-    margin-top: 50px;
+footer {
+  background-color: #353535;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin-top: 50px;
 }
-li{
+li {
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
 }
-.logo-footer img{
-    position: absolute;
-    top: 20px;
-    left: 100px;
-    width: 350px;
-    height: auto;
+.logo-footer img {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  width: 350px;
+  height: auto;
 }
-.lienhe-footer{
-    position: absolute;
-    width: 350px;
-    left: 165px;
-    top: 165px;
+.lienhe-footer {
+  position: absolute;
+  width: 350px;
+  left: 165px;
+  top: 165px;
 }
-.lienhe-footer p{
-    width: 350px;
-    color: #9FAC9F;
-    position: absolute;
-    margin-left: 40px;
-    margin-top: -22px;
+.lienhe-footer p {
+  width: 350px;
+  color: #9fac9f;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -22px;
 }
-.bor{
-    width: 30px;
-    height: 30px;
-    border: 2px solid white;
-    border-radius: 100%;
-    text-align: center;
+.bor {
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 100%;
+  text-align: center;
 }
-#location{
-    margin-top: -12px;
-    width: 20px;
-    height: auto;
+#location {
+  margin-top: -12px;
+  width: 20px;
+  height: auto;
 }
-#phone{
-    width: 20px;
-    height: auto;
+#phone {
+  width: 20px;
+  height: auto;
 }
-#email{
-    width: 20px;
-    height: auto;
+.dai {
+  width: 100%;
 }
-.diachi, .mail{
-    padding: 30px 0;
+#email {
+  width: 100%;
+  height: auto;
 }
-.diachi p{
+.diachi,
+.mail {
+  padding: 30px 0;
+}
+.diachi p {
   margin-top: -25px;
 }
-.phone p{
+.phone p {
   margin-top: -27px;
   margin-left: -90px;
 }
-.mail p{
+.mail p {
   margin-top: -25px;
   margin-left: -40px;
 }
-.diachi p:hover{
-    color: #fff;
-    cursor: pointer;
+.diachi p:hover {
+  color: #fff;
+  cursor: pointer;
 }
-.phone p:hover{
-    color: #fff;
-    cursor: pointer;
+.phone p:hover {
+  color: #fff;
+  cursor: pointer;
 }
-.mail p:hover{
-    color: #fff;
-    cursor: pointer;
+.mail p:hover {
+  color: #fff;
+  cursor: pointer;
 }
-.thongtin{
-    width: 62%;
-    margin-left: 36%;
-    position: absolute;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
+.thongtin {
+  width: 62%;
+  margin-left: 36%;
+  position: absolute;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
-.taikhoan, .chinhsach , .dieukhoan, .huongdan{
-    width: 200px;
+.taikhoan,
+.chinhsach,
+.dieukhoan,
+.huongdan {
+  width: 200px;
 }
-.taikhoan li, .chinhsach li , .dieukhoan li, .huongdan li{
-    padding: 10px;
-    color:#8B8B8B;
+.taikhoan li,
+.chinhsach li,
+.dieukhoan li,
+.huongdan li {
+  padding: 10px;
+  color: #8b8b8b;
 }
-.taikhoan li a, .chinhsach li a, .dieukhoan li a, .huongdan li a{
-    color: #8B8B8B;
+.taikhoan li a,
+.chinhsach li a,
+.dieukhoan li a,
+.huongdan li a {
+  color: #8b8b8b;
 }
-.taikhoan li a:hover{
-    color: #fff;
-    text-decoration: underline;
+.taikhoan li a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
-.chinhsach li a:hover{
-    color: #fff;
-    text-decoration: underline;
+.chinhsach li a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
-.dieukhoan li a:hover{
-    color: #fff;
-    text-decoration: underline;
+.dieukhoan li a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
-.huongdan li a:hover{
-    color: #fff;
-    text-decoration: underline;
+.huongdan li a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
-.huongdan li a{
-    border: none;
+.huongdan li a {
+  border: none;
 }
-.huongdan li:hover a{
-    background-color: #353535;
+.huongdan li:hover a {
+  background-color: #353535;
 }
-#white{
-    color: white;
-    font-size: 17px;
+#white {
+  color: white;
+  font-size: 17px;
 }
-.end{
-    padding: 0 135px;
-    position: absolute;
-    background-color: #111111;
-    height: 60px;
-    width: 100%;
-    margin-top: 380px;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
+.end {
+  padding: 0 135px;
+  position: absolute;
+  background-color: #111111;
+  height: 60px;
+  width: 100%;
+  margin-top: 380px;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
 }
-.end a{
-    color: #8B8B8B;
+.end a {
+  color: #8b8b8b;
 }
-.end li{
-    display: inline-block;
-    line-height: 60px;
-    padding: 0 0px;
+.end li {
+  display: inline-block;
+  line-height: 60px;
+  padding: 0 0px;
 }
-.end li a:hover{
-    color: white;
+.end li a:hover {
+  color: white;
 }
 /* ===================================================form */

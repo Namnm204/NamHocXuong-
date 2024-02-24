@@ -1,5 +1,6 @@
 import instance from "../api";
 import { signInValid } from "../validations/auth.valid";
+import { router } from "../utils/common";
 
 async function signIn() {
   try {
@@ -12,19 +13,20 @@ async function signIn() {
     };
 
     if (signInValid(user)) {
-      const { data } = await instance.post("/login", user);
-      if (data.user) {
-        sessionStorage.setItem("user", JSON.stringify(data));
-        const valueCofirm = confirm(
-          "đăng nhập thành công, bạn có muốn chuyển sang trang chủ!"
+      const response = await instance.post("/login", user);
+      if (response && response.data && response.data.user) {
+        sessionStorage.setItem("user", JSON.stringify(response.data));
+        const valueConfirm = confirm(
+          "Đăng nhập thành công! Bạn có muốn chuyển sang trang chủ không?"
         );
-        if (valueCofirm) {
+        if (valueConfirm) {
           router.navigate("/");
         }
       }
     }
   } catch (error) {
-    alert(`Error: ${err.response.data}`);
+    alert("Đã xảy ra lỗi khi đăng nhập.");
+    console.error(error);
   }
 }
 export default signIn;

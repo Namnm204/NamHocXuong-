@@ -30,8 +30,8 @@ async function register() {
           router.navigate("/signin");
         }
       }
-    } catch (err) {
-      alert(`Error: ${err.response.data}`);
+    } catch (Error) {
+      alert(`Error: ${Error.response.data}`);
     }
   }
 }

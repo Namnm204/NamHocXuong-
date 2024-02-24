@@ -1,31 +1,26 @@
 {
   "users": [
     {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$s6m2kne43np2qPOPSfsJG.G3qlhUvAKhQfgySnHxRXpoRFygXyWI2",
+      "role": "member",
+      "address": "",
+      "cart": [],
+      "history": [],
+      "comment": [],
+      "phoneNumber": "",
+      "id": 16
+    },
+    {
       "email": "nammmmmm008@gmail.com",
-      "password": "$2a$10$80KQjTMKEbiMCb/5t3xES.VRi4M9F9T8WPd1LKAM0qcWgWhBSOpz2",
+      "password": "$2a$10$8FBXmoBkFBBxRFXY5OJegeom621B8jaoMpnmhbShm/Iv/kvjBclCa",
       "role": "member",
       "address": "",
       "cart": [],
       "history": [],
       "comment": [],
       "phoneNumber": "",
-      "id": 12
-    },
-    {
-      "email": "nammmmmm0018@gmail.com",
-      "password": "$2a$10$2ApiIZESYNGfxJPfmavbGeKdEl3wWVnXt6ch9E8AZfguQcIrZb0Iy",
-      "id": 13
-    },
-    {
-      "email": "naora2221@gmail.com",
-      "password": "$2a$10$76gC3Dt4ftcnKmH9icdQUuUYJ9qM.PVw6fBDm6vfStsY0BxkfKjlW",
-      "role": "member",
-      "address": "",
-      "cart": [],
-      "history": [],
-      "comment": [],
-      "phoneNumber": "",
-      "id": 14
+      "id": 17
     }
   ],
   "products": [
